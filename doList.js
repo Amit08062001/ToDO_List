@@ -40,6 +40,7 @@ button.addEventListener('click',function(event){
         let newText = prompt("Edit Task", taskText); 
         if (newText !== null) {
             label.innerText = newText;
+          
         }
     })
     
